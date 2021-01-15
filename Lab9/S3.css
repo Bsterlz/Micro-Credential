@@ -1,0 +1,66 @@
+h1{
+  font-family: "sans Serif",Century Gothic;
+  font-weight: 300;
+}
+
+p{
+  font-family: "sans Serif",Century Gothic;
+  font-weight: 300;
+
+}
+
+
+a{
+  font-family: "sans Serif",Century Gothic;
+  font-weight: 300;
+}
+
+body{
+  margin:0;
+}
+
+.header{
+    text-align: right;
+    background-color: #808000;
+    padding: 2%;
+}
+
+/* Style hd */
+.hd{
+  overflow: hidden;
+  background-color: #4682B4;
+}
+
+/* Style hd */
+.hd a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align:right;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Style hd */
+.hd a:hover{
+  background-color: #555;
+  color:thistle;
+}
+
+/* Style hiya */
+.hiya{
+  float: left;
+  width: 33.33%;
+  padding;15px;
+  background-color: #D2B48C;
+  color: black;
+}
+/* Style hi */
+.hi: after{
+  content:open-quote;
+  display:table;
+  clear: both;
+}
+
+@media screen and (max-width):600px) {
+  .hiya{
+  width:100%;

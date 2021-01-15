@@ -1,0 +1,66 @@
+h1{
+  font-family: "Sans Serif",fantasy;
+  font-weight: 300;
+}
+
+p{
+  font-family: "Sans Serif",fantasy;
+  font-weight: 300;
+
+}
+
+
+a{
+  font-family: "Sans Serif",fantasy;
+  font-weight: 300;
+}
+
+body{
+  margin:0;
+}
+
+.header{
+    text-align: center;
+    background-color: #FFD700;
+    padding: 2%;
+}
+
+/* Style hd */
+.hd{
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/* Style hd */
+.hd a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Style hd */
+.hd a:hover{
+  background-color: #00FFFF;
+  color:thistle;
+}
+
+/* Style hiya */
+.hiya{
+  float: left;
+  width: 33.33%;
+  padding;15px;
+  background-color: #FFD700;
+  color: black;
+}
+/* Style hi */
+.hi: after{
+  content:open-quote;
+  display:table;
+  clear: both;
+}
+
+@media screen and (max-width):600px) {
+  .hiya{
+  width:100%;

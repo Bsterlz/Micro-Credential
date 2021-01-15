@@ -1,0 +1,66 @@
+h1{
+  font-family: "slab Serif",Rockwell;
+  font-weight: 300;
+}
+
+p{
+  font-family: "slab Serif",Rockwell;
+  font-weight: 300;
+
+}
+
+
+a{
+  font-family: "slab Serif",Rockwell;
+  font-weight: 300;
+}
+
+body{
+  margin:0;
+}
+
+.header{
+    text-align: center;
+    background-color: #DB7093;
+    padding: 2%;
+}
+
+/* Style hd */
+.hd{
+  overflow: hidden;
+  background-color: #F0E68C;
+}
+
+/* Style hd */
+.hd a{
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Style hd */
+.hd a:hover{
+  background-color: #555;
+  color:thistle;
+}
+
+/* Style hiya */
+.hiya{
+  float: left;
+  width: 33.33%;
+  padding;15px;
+  background-color: #7B68EE;
+  color: black;
+}
+/* Style hi */
+.hi: after{
+  content:open-quote;
+  display:table;
+  clear: both;
+}
+
+@media screen and (max-width):600px) {
+  .hiya{
+  width:100%;
